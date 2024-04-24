@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">To Do</string>
+    <string name="delete_all_task">Delete all task</string>
+    <string name="vazifa_nomi">Vazifa nomi</string>
+    <string name="muhim_vazifa">Muhim vazifa</string>
+    <string name="delete">DELETE</string>
+    <string name="rename">RENAME</string>
+    <string name="delete_completed_task">Delete completed task</string>
+    <string name="sort_time">Sort Time</string>
+    <string name="sort_name">Sort Name</string>
+    <string name="delete_done_task">Delete done task</string>
+    <string name="help">Help</string>
+    <string name="share">Share</string>
+    <string name="comment">Comment</string>
+    <string name="source_code">Source code</string>
+    <string name="about_the_program">About the Program</string>
+    <string name="finished_sort_first">Finished down</string>
+    <string name="finished_up">Finished up</string>
+</resources>

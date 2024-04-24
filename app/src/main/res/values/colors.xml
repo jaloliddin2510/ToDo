@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFC400</color>
+    <color name="gray">#4A4949</color>
+    <color name="gray_2">#F89696</color>
+    <color name="trancparent_1">#3fff</color>
+    <color name="creamey">#FFFDD0</color>
+    <color name="darck_blue">#121D7A</color>
+    <color name="darck_blue_2">#080E37</color>
+    <color name="darcken_blue">#1B1A55</color>
+    <color name="blue">#4DAFE5</color>
+    <color name="delay_color">#535C91</color>
+</resources>

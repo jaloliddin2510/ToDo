@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/baseline_sort_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/sort_time"
+                android:title="@string/sort_time"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/baseline_access_time_24"/>
+            <item android:id="@+id/sort_name"
+                android:title="@string/sort_name"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/baseline_sort_by_alpha_24"/>
+            <item android:id="@+id/sort_finished_down"
+                android:title="@string/finished_sort_first"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/baseline_check_circle_24"/>
+            <item android:id="@+id/sort_finished_up"
+                android:title="@string/finished_up"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/baseline_check_circle_24"/>
+        </menu>
+    </item>
+    <item android:id="@+id/thee_dot"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/context_menu_svgrepo_com">
+        <menu>
+            <item android:id="@+id/finished_hiden"
+                android:title="Hiden isFinished"
+                android:icon="@drawable/hide_svgrepo_com"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/delete_checkable"
+                android:title="@string/delete_done_task"
+                android:icon="@drawable/delete_svgrepo_com"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/delete_all"
+                android:title="@string/delete_all_task"
+                android:icon="@drawable/delete_svgrepo_com"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/help"
+                android:title="@string/help"
+                android:icon="@drawable/baseline_headset_mic_24"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/share"
+                android:title="@string/share"
+                android:icon="@drawable/baseline_share_24"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/comment"
+                android:title="@string/comment"
+                android:icon="@drawable/baseline_star_rate_24"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/source_code"
+                android:title="@string/source_code"
+                android:icon="@drawable/github"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/info"
+                android:title="@string/about_the_program"
+                android:icon="@drawable/baseline_info_24"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+</menu>
